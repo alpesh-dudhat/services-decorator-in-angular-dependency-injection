@@ -4,7 +4,7 @@ import { UsersService } from './services/users.service';
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [UsersService],
+  // providers: [UsersService],
 })
 export class AppComponent {
   // name = 'Angular ' + VERSION.major;

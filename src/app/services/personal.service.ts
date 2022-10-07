@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
-
-// @Injectable()
+console.log('personal service');
+@Injectable({
+  providedIn: 'root',
+})
 export class PersonalService {
   constructor() {}
   getPersonalInfo() {
